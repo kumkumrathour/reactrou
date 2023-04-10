@@ -17,10 +17,10 @@ function App() {
           {/* <Route path='/' element={<Screen1/>}></Route> */}
           {/* <Route path='/Screen2' element={<Screen2/>}></Route> */}
           {/* <Route path='/FormInput' element={<FormInput/>}></Route> */}
-          <Route path="/" element={< PageFirst/>}/>
+          <Route path="/" element={< Resister/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Logic" element={<Login/>}/>
-          <Route path="/Resister" element={<Resister/>}/>
+          <Route path="/Resister" element={<PageFirst/>}/>
         </Routes>
     </>
   );
